@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.9
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrderViewer", "OrderViewer\OrderViewer.csproj", "{D00FBDAE-A2E8-49CF-938C-F3E91156FC3A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrderViewer.Tests", "OrderViewer.Tests\OrderViewer.Tests.csproj", "{0662EB78-D3FE-42A3-92CB-6D55DCFF021E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrderViewer.Core", "OrderViewer.Core\OrderViewer.Core.csproj", "{277793E1-C861-4331-AA67-D432C19A0C36}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D00FBDAE-A2E8-49CF-938C-F3E91156FC3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D00FBDAE-A2E8-49CF-938C-F3E91156FC3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D00FBDAE-A2E8-49CF-938C-F3E91156FC3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D00FBDAE-A2E8-49CF-938C-F3E91156FC3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0662EB78-D3FE-42A3-92CB-6D55DCFF021E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0662EB78-D3FE-42A3-92CB-6D55DCFF021E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0662EB78-D3FE-42A3-92CB-6D55DCFF021E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0662EB78-D3FE-42A3-92CB-6D55DCFF021E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{277793E1-C861-4331-AA67-D432C19A0C36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{277793E1-C861-4331-AA67-D432C19A0C36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{277793E1-C861-4331-AA67-D432C19A0C36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{277793E1-C861-4331-AA67-D432C19A0C36}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
