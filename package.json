@@ -20,7 +20,7 @@
     "test-watch": "karma start --no-single-run --auto-watch",
     "ci": "npm run e2e && npm run test",
     "docs": "typedoc --options typedoc.json src/app/app.component.ts",
-    "start": "node index.js",
+    "start": "npm install && npm run build && node index.js",
     "start:hmr": "npm run server -- --hot",
 	"prestart": "npm install && npm run build"
   },
